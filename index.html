@@ -43,6 +43,10 @@
         let guessCount = 1;
         let resetButton;
 
+        /*This line uses the focus() method to automatically put the text cursor into the <input> text field as soon as the page loads, meaning that the user can start typing their first guess right away, without having to click the form field first.*/
+
+        guessField.focus();
+
         /*This defines a function in our code that creates an alert whenever we call it.
         
         function checkGuess() {
